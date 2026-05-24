@@ -85,7 +85,14 @@
     font-size: clamp(1.7rem, 4vw, 2.2rem);
     color: var(--beige);
     line-height: 1.2;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+  }
+  .subtext {
+    font-size: .88rem;
+    color: var(--terracotta);
+    font-weight: 600;
+    letter-spacing: .3px;
+    margin-bottom: 24px;
   }
   .divider {
     width: 48px;
@@ -104,7 +111,7 @@
   .note {
     font-size: .82rem;
     color: var(--light-gray);
-    margin-top: 20px;
+    margin-top: 24px;
     line-height: 1.7;
   }
   .note a {
@@ -114,18 +121,6 @@
     transition: color .2s;
   }
   .note a:hover { color: var(--almond); }
-  .back-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    margin-top: 36px;
-    font-size: .82rem;
-    color: var(--light-gray);
-    text-decoration: none;
-    transition: color .2s;
-  }
-  .back-link:hover { color: var(--almond); }
-  .back-link svg { width: 14px; height: 14px; }
   footer {
     margin-top: 32px;
     font-size: .75rem;
@@ -150,25 +145,18 @@
   </div>
 
   <h1>Оплата прошла успешно!</h1>
+  <p class="subtext">Вы приобрели онлайн курс «Психологический Чекап»</p>
   <div class="divider"></div>
 
   <p class="body-text">
-    Мы уже отправили ссылку для входа в закрытый канал курса
-    «Психологический Чекап» в ваш Telegram-бот
-    <strong style="color:var(--almond)">@PsyAuditBot</strong>.
+    Ссылка для входа в закрытый канал курса отправлена на вашу электронную почту.
+    Если письмо не пришло — проверьте папку «Спам».
   </p>
 
   <p class="note">
-    Если сообщение не пришло — напишите нам:<br>
+    По всем вопросам:
     <a href="mailto:info_malikova@internet.ru">info_malikova@internet.ru</a>
   </p>
-
-  <a href="/" class="back-link">
-    <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    Вернуться на сайт
-  </a>
 </div>
 
 <footer>© 2025 Светлана Маликова · Психологический Чекап</footer>
